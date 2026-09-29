@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agentic Integrator"
+  short_description: "Coordinate safe multi-agent software delivery"
+  default_prompt: "Use $agentic-integrator to plan, delegate, review, and integrate this software change."
