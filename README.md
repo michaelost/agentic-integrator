@@ -65,10 +65,8 @@ Raw evidence remains available when deeper inspection is useful.
 
 ### Global installation
 
-Replace `<github-user>` with the repository owner's GitHub username:
-
 ```bash
-npx skills add <github-user>/agentic-integrator \
+npx skills add michaelost/agentic-integrator \
   --skill agentic-integrator \
   --agent claude-code \
   --global
@@ -81,7 +79,7 @@ For a non-interactive installation, add `--yes`.
 Run from the target repository and omit `--global`:
 
 ```bash
-npx skills add <github-user>/agentic-integrator \
+npx skills add michaelost/agentic-integrator \
   --skill agentic-integrator \
   --agent claude-code
 ```
@@ -89,7 +87,7 @@ npx skills add <github-user>/agentic-integrator \
 ### Interactive installation
 
 ```bash
-npx skills add <github-user>/agentic-integrator
+npx skills add michaelost/agentic-integrator
 ```
 
 Select `agentic-integrator`, Claude Code, and the desired scope when prompted.
@@ -106,7 +104,7 @@ test -f ~/.claude/skills/agentic-integrator/SKILL.md && echo "Installed"
 If the installer reports success but Claude Code cannot see the skill:
 
 ```bash
-git clone https://github.com/<github-user>/agentic-integrator.git \
+git clone https://github.com/michaelost/agentic-integrator.git \
   ~/.claude/skills/agentic-integrator
 ```
 
